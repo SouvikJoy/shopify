@@ -1,0 +1,104 @@
+html,body {
+  font-family:
+    'SF Pro Rounded',
+    -apple-system,
+    BlinkMacSystemFont,
+    'Segoe UI',
+    Roboto,
+    'Helvetica Neue',
+    Arial,
+    sans-serif;
+  font-size: 22px;
+  word-spacing: 1px;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  background-color: gainsboro;
+}
+button:focus {
+  outline: none;
+}
+a {
+  color: #5aba88;
+   .nuxt-link-active {
+     color: #5aba88;
+     .nuxt-link-exact-active{
+       color: white;
+     }
+   }
+ }
+.brand-name {
+  color: #5aba88;
+}
+.login-form-title {
+  font-size: xx-large;
+}
+.vs-dialog__header {
+  margin: 35px 20px 20px 20px;
+}
+.vs-input {
+  width: 100%;
+  margin: 10px 0 10px 0;
+  .vs-input-content {
+    display: flex;
+  }
+}
+.flex {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 10px;
+}
+.vs-navbar {
+  background-color: #35495e;
+  padding:0 70px 0 70px;
+  .vs-navbar__group__items {
+    left: -35px;
+    margin: 0;
+  }
+}
+.vs-dialog {
+  min-width: 600px;
+  .vs-dialog__content {
+    padding: 10px 30px;
+  }
+}
+.new {
+  margin: 20px 0;
+}
+
+.header-icons {
+  color: white;
+  font-size: xx-large;
+}
+
+.vs-select-content {
+  max-width: 600px;
+}
+.footer {
+  background-color: #35495EFF;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 30px 10px 30px;
+}
+.footer-img {
+  height: 25px;
+  padding: 5px 0;
+}
+.front-cover {
+  width: 100%;
+  height: 600px;
+}
+.product-heading {
+  font-size: 2rem;
+}
+.header-logo {
+  height: 40px;
+  width: 100px;
+}
+.service-logo {
+  font-size: 8rem;
+  color: slategray;
+}
