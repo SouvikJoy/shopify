@@ -1,7 +1,7 @@
 <template>
   <div class="background-img" :style="{ backgroundImage: `url(${require('~/assets/carousel-9.jpg')})` }">
     <h1 class="text-center text-4xl font-extrabold text-gray-900 pt-20">
-      <span class="block xl:inline">Data To Enrich Your Destiny</span>
+      <span class="block xl:inline">Data To Enrich Your</span>
       <span class="block text-white xl:inline">Online Business</span>
     </h1>
     <p class="mt-3 text-center text-white">

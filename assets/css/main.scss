@@ -8,7 +8,7 @@ html,body {
     'Helvetica Neue',
     Arial,
     sans-serif;
-  font-size: 22px;
+  font-size: 16px;
   word-spacing: 1px;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
@@ -51,8 +51,11 @@ a {
   padding-top: 10px;
 }
 .vs-navbar {
-  background-color: #35495e;
+  /*
+  background-color: #ffffff;
+  */
   padding:0 70px 0 70px;
+  position: absolute;
   .vs-navbar__group__items {
     left: -35px;
     margin: 0;
@@ -68,17 +71,10 @@ a {
   margin: 20px 0;
 }
 
-.header-icons {
-  color: white;
-  font-size: xx-large;
-}
-
 .vs-select-content {
   max-width: 600px;
 }
 .footer {
-  background-color: #35495EFF;
-  color: white;
   display: flex;
   justify-content: space-between;
   padding: 10px 30px 10px 30px;
@@ -101,4 +97,28 @@ a {
 .service-logo {
   font-size: 8rem;
   color: slategray;
+}
+.vs-col--offset-1 {
+  margin: 1%;
+}
+.summer {
+  height: 424px;
+  font-size: x-large;
+}
+.sample-request {
+  display: flex;
+}
+.query-box {
+  height: 567px;
+}
+.search-box {
+  min-width: 600px;
+}
+.banner {
+  width: 800px
+}
+.interaction {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }

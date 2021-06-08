@@ -3,45 +3,18 @@
     <vs-navbar v-model="active" center-collapsed>
       <template #left>
         <img src="~/assets/logo.svg" alt="" class="header-logo" />
+        <div class="pl-20 ml-20">
+          <NuxtLink to="#" class="font-black">
+            CATEGORIES
+          </NuxtLink>
+        </div>
       </template>
-      <vs-navbar-group>
-        <NuxtLink to="#">
-          Categories
-        </NuxtLink>
-        <template #items>
-          <vs-navbar-item id="guide" :active="active === 'guide'">
-            <NuxtLink to="#">
-              Guide
-            </NuxtLink>
-          </vs-navbar-item>
-          <vs-navbar-item id="docs" :active="active === 'docs'">
-            <NuxtLink to="#">
-              Documents
-            </NuxtLink>
-          </vs-navbar-item>
-          <vs-navbar-item id="components" :active="active === 'components'">
-            <NuxtLink to="#">
-              Components
-            </NuxtLink>
-          </vs-navbar-item>
-        </template>
-      </vs-navbar-group>
 
-      <vs-navbar-item id="1" :active="active === '1'">
-        <NuxtLink to="#">
-          Documents
-        </NuxtLink>
-      </vs-navbar-item>
-      <vs-navbar-item id="2" :active="active === '2'">
-        <NuxtLink to="#">
-          Components
-        </NuxtLink>
-      </vs-navbar-item>
-      <vs-navbar-item id="3" :active="active === '3'">
-        <NuxtLink to="#">
-          license
-        </NuxtLink>
-      </vs-navbar-item>
+      <vs-input
+        type="search"
+        placeholder="Search"
+        class="search-box"
+      />
 
       <template #right>
         <AreaSelector />

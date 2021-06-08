@@ -9,7 +9,7 @@
           <h3>Pot with a plant</h3>
         </template>
         <template #img>
-          <img src="~/assets/p1.jpeg" alt="" @click="activeProduct=!activeProduct" />
+          <img src="~/assets/p3.jpeg" alt="" @click="activeProduct=!activeProduct" />
         </template>
         <template #text>
           <p>
@@ -50,6 +50,42 @@
             <div>
               <img src="~/assets/p1.jpeg" alt="" />
             </div>
+            <div class="text-center py-2">
+              <span class="font-bold">Price: </span>
+              <span>300</span>
+            </div>
+            <div class="pt-2">
+              <vs-row>
+                <vs-col vs-type="flex" vs-justify="center" vs-align="center" w="5" class="pr-2">
+                  <vs-button
+                    gradient
+                    style="min-width: 150px"
+                    warn
+                    animation-type="scale"
+                    block
+                  >
+                    <i class="bx bxs-shopping-bag"></i>
+                    <template #animate>
+                      Add to Cart
+                    </template>
+                  </vs-button>
+                </vs-col>
+                <vs-col vs-type="flex" vs-justify="center" vs-align="center" w="5" class="pl-2">
+                  <vs-button
+                    gradient
+                    style="min-width: 150px"
+                    success
+                    animation-type="scale"
+                    block
+                  >
+                    <i class="bx bxs-cart-download" style="color:#ffffff"></i>
+                    <template #animate>
+                      Buy Now
+                    </template>
+                  </vs-button>
+                </vs-col>
+              </vs-row>
+            </div>
           </vs-col>
           <vs-col vs-type="flex" vs-justify="center" vs-align="center" w="6">
             <div>
@@ -78,50 +114,6 @@
                   Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
                 </small>
               </div>
-              <vs-row>
-                <vs-col vs-type="flex" vs-justify="center" vs-align="center" w="3">
-                  <vs-button
-                    gradient
-                    style="min-width: 150px"
-                    warn
-                    animation-type="scale"
-                    block
-                  >
-                    <i class="bx bxs-shopping-bag"></i>
-                    <template #animate>
-                      Add to Cart
-                    </template>
-                  </vs-button>
-                </vs-col>
-                <vs-col vs-type="flex" vs-justify="center" vs-align="center" w="4">
-                  <vs-button
-                    gradient
-                    style="min-width: 150px"
-                    success
-                    animation-type="scale"
-                    block
-                  >
-                    <i class="bx bxs-cart-download" style="color:#ffffff"></i>
-                    <template #animate>
-                      Buy Now
-                    </template>
-                  </vs-button>
-                </vs-col>
-                <vs-col vs-type="flex" vs-justify="center" vs-align="center" w="3">
-                  <vs-button
-                    gradient
-                    style="min-width: 150px"
-                    danger
-                    animation-type="scale"
-                    block
-                  >
-                    <i class="bx bxs-bookmark-alt-plus" style="color:#ffffff"></i>
-                    <template #animate>
-                      Favourite
-                    </template>
-                  </vs-button>
-                </vs-col>
-              </vs-row>
             </div>
           </vs-col>
         </vs-row>

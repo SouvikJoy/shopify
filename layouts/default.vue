@@ -1,9 +1,9 @@
 <template>
   <div>
-    <header>
+    <header class="bg-gray-800">
       <Header />
     </header>
-    <main>
+    <main class="bg-gray-200 dark:bg-gray-500 ">
       <Nuxt />
     </main>
     <footer>
